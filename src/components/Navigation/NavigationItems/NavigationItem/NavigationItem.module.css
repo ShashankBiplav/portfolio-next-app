@@ -1,29 +1,8 @@
 .NavigationItem{
-    display: inline-block;
-    position: relative;
-    margin: 20px;
-    box-sizing: border-box;
-    width: 100%;
-    text-transform: uppercase;
-    font-weight: 500;
-    padding: 10px 20px;
-    font-size: 12px;
-    border-radius: 40px;
-    box-shadow: -2px -2px 8px rgba(255, 255, 255, 1), -2px -2px 12px rgba(255, 255, 255, 0.5),
-                inset 2px 2px 12px rgba(255, 255, 255, 0.5), 2px 2px 8px rgba(0, 0, 0 ,0.15);
-
-}
-
-.NavigationItem a{
     text-decoration: none;
-    width: 100%;
-    box-sizing: border-box;
-    display: block;
-}
-
-.NavigationItem a:hover,
-.NavigationItem a:active,
-.NavigationItem a.active{
-    box-shadow: inset -2px -2px 8px rgba(255, 255, 255, 1), inset -2px -2px 12px rgba(255, 255, 255, 0.5),
-    inset 2px 2px 12px rgba(255, 255, 255, 0.5), inset 2px 2px 8px rgba(0, 0, 0 ,0.15);
+    list-style: none;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 0 20px;
 }

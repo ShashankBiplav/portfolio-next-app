@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import {Route, Switch} from 'react-router-dom';
 
 import Home from './components/Home/Home';
@@ -11,7 +10,7 @@ import NavigationItems from './components/Navigation/NavigationItems/NavigationI
 
 function App() {
   return (
-    <div className="App">
+    <div>
         <NavigationItems />
         <Switch>
           <Route path="/projects" exact component={Projects}/>
