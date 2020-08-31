@@ -6,11 +6,13 @@ import Home from './components/Home/Home';
 import Projects from './components/Projects/Projects';
 import Skills from './components/Skills/Skills';
 import Testimonials from './components/Testimonials/Testimonials';
+import NavigationItems from './components/Navigation/NavigationItems/NavigationItems';
 
 
 function App() {
   return (
     <div className="App">
+        <NavigationItems />
         <Switch>
           <Route path="/projects" exact component={Projects}/>
           <Route path="/skills" exact component={Skills}/>
