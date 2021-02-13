@@ -1,10 +1,11 @@
-import Head from 'next/head'
+import Head from 'next/head';
+import Link from  'next/link'
 
 export default function Home() {
   return (
     <div>
       <head>
-        <meta charset="UTF-8"/>
+        <meta charSet="UTF-8"/>
         <meta name="viewport" content="width=device-width,initial-scale=1"/>
         <title>Shashank Biplav</title>
         <meta name="author" content="Shashank Biplav"/>
@@ -117,7 +118,7 @@ export default function Home() {
                       Intelli-Park</h1>
                     <p className="text-sm leading-relaxed text-gray-400">Latest Project
                     </p>
-                    <p className="text-xs leading-relaxed text-gray-400"> Since 2019
+                    <p className="text-xs leading-relaxed text-gray-400"> Since 2020
                     </p>
                     <p
                       className="mt-8 font-normal leading-relaxed tracking-tighter text-gray-900 text-md xl:mt-12 dark:text-gray-100">
@@ -330,9 +331,8 @@ export default function Home() {
                       Shashank Biplav</h1>
                     <p className="mb-10 text-lg leading-relaxed text-gray-400"> Software Engineer &amp; Technology Blogger
                     </p>
-                    <span className="flex-wrap mt-8 text-sm font-bold text-gray-400 md:ml-4 lg:ml-auto"
-                          className="license-text">
-                      Developer by day and Blogger by night.
+                    <span className="flex-wrap mt-8 text-sm font-bold text-gray-400 md:ml-4 lg:ml-auto license-text">
+                      <p>Developer by day and Blogger by night.</p>
           </span>
                   </div>
                 </div>
