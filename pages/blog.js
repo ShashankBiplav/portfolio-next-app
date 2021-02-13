@@ -61,9 +61,7 @@ const blog = () => {
                     <p className="text-sm leading-relaxed text-gray-400">Feb 5, 2021
                     </p>
                     <p className="mt-4 leading-relaxed tracking-tighter text-md dark:text-gray-100">
-                      Buddies, I guess I am a bit late to the hackathon party! But, I am here with a bang. This is the
-                      first Hackathon on Hashnode that I am participating and I am excited about your feedback and
-                      comments. As you are reading this blog Intelli-Park is already being implemented and tested at 2
+                      Buddies, I guess I am a bit late to the hackathon party! But, I am here with a bang. As you are reading this blog Intelli-Park is already being implemented and tested at 2
                       parking lots. So, without further ado let's get started.
                     </p>
                     <button
@@ -96,7 +94,7 @@ const blog = () => {
                     <h1 className="mt-auto mb-2 font-sans text-2xl font-black tracking-tighter text-cyan-500">
                       Dockerizing a React App</h1>
                     <p className="text-sm leading-relaxed text-gray-400">
-                      Featured on <span className="font-semibold">daily.dev</span>
+                      Featured on <span className="font-bold">daily.dev</span>
                     </p>
                     <p className="text-xs leading-relaxed text-gray-400">
                       Feb 11, 2021
