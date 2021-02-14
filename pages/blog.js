@@ -31,7 +31,8 @@ const blog = () => {
         <div className="container px-5 mx-auto lg:py-5 xl:px-0">
           <div
             className="w-full mt-4 mb-4 text-black bg-gray-100 shadow-xl lg:mb-8 dark:text-white rounded-xl dark:bg-gray-900">
-            <div className="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
+            <div
+              className="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
               <div className="flex flex-row items-center justify-between p-4">
                 <a href={"/"}
                    className="text-lg font-semibold rounded-lg tracking-widestuppercase focus:outline-none focus:shadow-outline">
@@ -41,10 +42,10 @@ const blog = () => {
                   </h1>
                 </a>
                 <button className="rounded-lg md:hidden focus:outline-none focus:shadow-outline transition"
-                        onClick={toggleNavigation}>{navOpen? closeMenuIcon :menuIcon}
+                        onClick={toggleNavigation}>{navOpen ? closeMenuIcon : menuIcon}
                 </button>
               </div>
-              <nav className= "flex flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
+              <nav className="flex flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
                 <a
                   className="px-4 py-2 mt-2 text-sm font-semibold text-gray-600 transition duration-500 ease-in-out transform bg-transparent rounded-lg dark:text-gray-300 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-300 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
                   href={"/"}>Home</a>
@@ -52,7 +53,7 @@ const blog = () => {
                   className="px-4 py-2 mt-2 text-sm font-semibold text-gray-600 transition duration-500 ease-in-out transform bg-transparent rounded-lg dark:text-gray-300 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-300 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
                   href={"/projects"}>Projects</a>
               </nav>
-              {navOpen?<nav className="sm:hidden md:block flex flex-col">
+              {navOpen ? <nav className="sm:hidden md:block flex flex-col">
                 <a
                   className="px-4 py-2 mt-2 text-sm font-semibold text-gray-600 transition duration-500 ease-in-out transform bg-transparent rounded-lg dark:text-gray-300 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-300 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
                   href={"/"}>Home</a>
@@ -75,13 +76,16 @@ const blog = () => {
                     <p className="text-sm leading-relaxed text-gray-400">Feb 5, 2021
                     </p>
                     <p className="mt-4 leading-relaxed tracking-tighter text-md dark:text-gray-100">
-                      Buddies, I guess I am a bit late to the hackathon party! But, I am here with a bang. As you are reading this blog Intelli-Park is already being implemented and tested at 2
+                      Buddies, I guess I am a bit late to the hackathon party! But, I am here with a bang. As you are
+                      reading this blog Intelli-Park is already being implemented and tested at 2
                       parking lots. So, without further ado let's get started.
                     </p>
                     <button
                       className="px-4 py-2 mt-12 text-gray-900 transition duration-500 ease-in-out transform bg-gray-100 border-2 shadow-2xl focus:ring-4 focus:ring-cyan-500 focus:ring-opacity-50 focus:outline-none dark:bg-gray-900 hover:bg-white dark:hover:bg-white border-cyan-400 hover:border-white dark:text-gray-100 dark:hover:text-gray-900 hover:text-gray-900 rounded-xl xl:mt-4">
-                      <a href={"https://shashankbiplav.me/intelli-park-parking-made-intelligent-my-vercelhashnode-project"} target="_blank" rel="noopener noreferrer"
-                         className="flex items-center font-semibold leading-relaxed tracking-tighter text-md focus:outline-none">
+                      <a
+                        href={"https://shashankbiplav.me/intelli-park-parking-made-intelligent-my-vercelhashnode-project"}
+                        target="_blank" rel="noopener noreferrer"
+                        className="flex items-center font-semibold leading-relaxed tracking-tighter text-md focus:outline-none">
                         Read More
                         <svg xmlns="http://www.w3.org/2000/svg" className="ml-2" width="20" height="20"
                              viewBox="0 0 24 24"
@@ -122,7 +126,8 @@ const blog = () => {
                     </p>
                     <button
                       className="px-4 py-2 mt-12 text-gray-900 transition duration-500 ease-in-out transform bg-gray-100 border-2 shadow-2xl focus:ring-4 focus:ring-cyan-500 focus:ring-opacity-50 focus:outline-none dark:bg-gray-900 hover:bg-white dark:hover:bg-white border-cyan-400 hover:border-white dark:text-gray-100 dark:hover:text-gray-900 hover:text-gray-900 rounded-xl xl:mt-4">
-                      <a href={"https://shashankbiplav.me/dockerizing-a-react-app-introduction-to-multi-stage-builds"} target="_blank" rel="noopener noreferrer"
+                      <a href={"https://shashankbiplav.me/dockerizing-a-react-app-introduction-to-multi-stage-builds"}
+                         target="_blank" rel="noopener noreferrer"
                          className="flex items-center font-semibold leading-relaxed tracking-tighter text-md focus:outline-none">
                         Read More
                         <svg xmlns="http://www.w3.org/2000/svg" className="ml-2" width="20" height="20"
@@ -200,7 +205,8 @@ const blog = () => {
                     </p>
                     <button
                       className="px-4 py-2 my-10 text-gray-900 transition duration-500 ease-in-out transform bg-gray-100 border-2 shadow-2xl focus:ring-4 focus:ring-cyan-500 focus:ring-opacity-50 focus:outline-none dark:bg-gray-900 hover:bg-white dark:hover:bg-white border-cyan-400 hover:border-white dark:text-gray-100 dark:hover:text-gray-900 hover:text-gray-900 rounded-xl">
-                      <a href={"https://shashankbiplav.me/laravel-development-environment-setup-using-docker"} target="_blank" rel="noopener noreferrer"
+                      <a href={"https://shashankbiplav.me/laravel-development-environment-setup-using-docker"}
+                         target="_blank" rel="noopener noreferrer"
                          className="flex items-center font-semibold leading-relaxed tracking-tighter text-md focus:outline-none">
                         Read More
                         <svg xmlns="http://www.w3.org/2000/svg" className="ml-2" width="20" height="20"
@@ -239,11 +245,14 @@ const blog = () => {
                     <p className="text-sm leading-relaxed text-gray-400">Jan 2, 2021
                     </p>
                     <p className="mt-4 leading-relaxed tracking-tighter text-md dark:text-gray-100">
-                      The most astonishing fact is that Deno is developed by the same developer (Ryan Dahl) that developed Node about 11 years ago in 2009. Deno was released about 2 years ago in May 2018. But why was there a need for Deno? Let's have a deep dive further and compare them.
+                      The most astonishing fact is that Deno is developed by the same developer (Ryan Dahl) that
+                      developed Node about 11 years ago in 2009. Deno was released about 2 years ago in May 2018. But
+                      why was there a need for Deno? Let's have a deep dive further and compare them.
                     </p>
                     <button
                       className="px-4 py-2 my-10 text-gray-900 transition duration-500 ease-in-out transform bg-gray-100 border-2 shadow-2xl focus:ring-4 focus:ring-cyan-500 focus:ring-opacity-50 focus:outline-none dark:bg-gray-900 hover:bg-white dark:hover:bg-white border-cyan-400 hover:border-white dark:text-gray-100 dark:hover:text-gray-900 hover:text-gray-900 rounded-xl">
-                      <a href={"https://shashankbiplav.me/nodejs-vs-denojs-which-one-and-why"} target="_blank" rel="noopener noreferrer"
+                      <a href={"https://shashankbiplav.me/nodejs-vs-denojs-which-one-and-why"} target="_blank"
+                         rel="noopener noreferrer"
                          className="flex items-center font-semibold leading-relaxed tracking-tighter text-md focus:outline-none">
                         Read More
                         <svg xmlns="http://www.w3.org/2000/svg" className="ml-2" width="20" height="20"
@@ -275,12 +284,15 @@ const blog = () => {
                       Jul 27, 2020
                     </p>
                     <p className="mt-4 leading-relaxed tracking-tighter text-md dark:text-gray-100">
-                      Here I will be guiding you through the Flutter development environment setup on macOS in less than 20 minutes. Its 2020 and being a freelancer or having a small team to manage different codebases for a single app is a nightmare, Flutter got you covered.
+                      Here I will be guiding you through the Flutter development environment setup on macOS in less than
+                      20 minutes. Its 2020 and being a freelancer or having a small team to manage different codebases
+                      for a single app is a nightmare, Flutter got you covered.
                       It’s one of the most popular frameworks for App development today.
                     </p>
                     <button
                       className="px-4 py-2 mt-4 text-gray-900 transition duration-500 ease-in-out transform bg-gray-100 border-2 shadow-2xl focus:ring-4 focus:ring-cyan-500 focus:ring-opacity-50 focus:outline-none dark:bg-gray-900 hover:bg-white dark:hover:bg-white border-cyan-400 hover:border-white dark:text-gray-100 dark:hover:text-gray-900 hover:text-gray-900 rounded-xl">
-                      <a href={"https://shashankbiplav.me/flutter-development-environment-setup-on-macos"} target="_blank" rel="noopener noreferrer"
+                      <a href={"https://shashankbiplav.me/flutter-development-environment-setup-on-macos"}
+                         target="_blank" rel="noopener noreferrer"
                          className="flex items-center font-semibold leading-relaxed tracking-tighter text-md focus:outline-none">
                         Read More
                         <svg xmlns="http://www.w3.org/2000/svg" className="ml-2" width="20" height="20"
@@ -320,13 +332,14 @@ const blog = () => {
                     <p className="text-sm leading-relaxed text-gray-400">Aug 12, 2020
                     </p>
                     <p className="mt-4 leading-relaxed tracking-tighter text-md dark:text-gray-100">
-                      Welcome to this tutorial of building a "REST API using NodeJS". Here I will show you to build a REST API from scratch. We will build a "TODO" API, where we can perform CRUD(Create, Read, Update & Delete) operations on a TODO object.
-                      For the sake of simplicity, I will add a real database and user authentication later in my other post.
-                      
+                      Welcome to this tutorial of building a "REST API using NodeJS". Here I will show you to build a
+                      REST API from scratch. We will build a "TODO" API, where we can perform CRUD(Create, Read, Update
+                      & Delete) operations on a TODO object.
                     </p>
                     <button
                       className="px-4 py-2 mt-4 text-gray-900 transition duration-500 ease-in-out transform bg-gray-100 border-2 shadow-2xl focus:ring-4 focus:ring-cyan-500 focus:ring-opacity-50 focus:outline-none dark:bg-gray-900 hover:bg-white dark:hover:bg-white border-cyan-400 hover:border-white dark:text-gray-100 dark:hover:text-gray-900 hover:text-gray-900 rounded-xl">
-                      <a href={"https://shashankbiplav.me/todo-rest-api-example-using-nodejs"} target="_blank" rel="noopener noreferrer"
+                      <a href={"https://shashankbiplav.me/todo-rest-api-example-using-nodejs"} target="_blank"
+                         rel="noopener noreferrer"
                          className="flex items-center font-semibold leading-relaxed tracking-tighter text-md focus:outline-none">
                         Read More
                         <svg xmlns="http://www.w3.org/2000/svg" className="ml-2" width="20" height="20"
@@ -356,11 +369,13 @@ const blog = () => {
                     <div className="w-1/3 my-2 lg:p-3 md:w-1/6 lg:mx-auto">
                       <button
                         className="inline-flex items-center justify-center flex-shrink-0 w-16 h-16 mb-4 transition-all duration-500 ease-in-out transform bg-gray-100 border-2 shadow-xl rounded-xl hover:text-cyan-500 dark:bg-gray-900 dark:text-gray-100 hover:bg-white dark:hover:bg-gray-800 dark:hover:border-gray-900 border-cyan-400 hover:border-white focus:ring-4 focus:ring-cyan-500 focus:ring-opacity-50 focus:outline-none ">
-                        <a href={"https://github.com/ShashankBiplav"} target="_blank" rel="noopener noreferrer" className="focus:outline-none">
+                        <a href={"https://github.com/ShashankBiplav"} target="_blank" rel="noopener noreferrer"
+                           className="focus:outline-none">
                           <svg width="32" height="32" viewBox="0 0 24 24" fill="none"
                                xmlns="http://www.w3.org/2000/svg">
-                            <path fillRule="evenodd" clipRule="evenodd" fill="currentColor" d="M10.07031,20.50291a1.00008,1.00008,0,0,0-1.18115-.9834c-1.30908.24024-2.96191.27637-3.40137-.958a5.70754,5.70754,0,0,0-1.83691-2.415,1.20073,1.20073,0,0,1-.1665-.10938,1,1,0,0,0-.93067-.64551H2.54883a.99965.99965,0,0,0-1,.99512c-.00391.81543.811,1.33789,1.1416,1.51465a4.4408,4.4408,0,0,1,.92383,1.35937c.36426,1.02344,1.42285,2.57617,4.46582,2.376.001.03516.00195.06836.00244.09863l.00439.26758a1,1,0,0,0,2,0l-.00488-.31836C10.07715,21.4951,10.07031,21.22068,10.07031,20.50291Zm10.667-15.126c.03174-.125.063-.26367.09034-.41992a6.27792,6.27792,0,0,0-.40821-3.293,1.002,1.002,0,0,0-.61572-.58007c-.356-.12012-1.67041-.35645-4.18408,1.25a13.86918,13.86918,0,0,0-6.354,0C6.76221.751,5.45459.9658,5.10205,1.07908a.99744.99744,0,0,0-.63135.584,6.3003,6.3003,0,0,0-.40332,3.35644c.02442.12793.05078.2461.07813.35449A6.26928,6.26928,0,0,0,2.89014,9.20311a8.42168,8.42168,0,0,0,.04248.92187c.334,4.60254,3.334,5.98438,5.42431,6.459-.04345.125-.083.25878-.11816.40039a1.00023,1.00023,0,0,0,1.94238.47851,1.6784,1.6784,0,0,1,.46778-.87793.99947.99947,0,0,0-.5459-1.74512c-3.4541-.39453-4.95362-1.80175-5.1792-4.89843a6.61076,6.61076,0,0,1-.03369-.73828,4.25769,4.25769,0,0,1,.91943-2.71289,3.022,3.022,0,0,1,.1958-.23145.99988.99988,0,0,0,.188-1.02441,3.3876,3.3876,0,0,1-.15527-.55567A4.09356,4.09356,0,0,1,6.1167,3.06346a7.54263,7.54263,0,0,1,2.415,1.17968,1.00877,1.00877,0,0,0,.82764.13282,11.77716,11.77716,0,0,1,6.17285.001,1.00549,1.00549,0,0,0,.83056-.13769,7.572,7.572,0,0,1,2.40528-1.19043,4.03977,4.03977,0,0,1,.0874,1.57812,3.205,3.205,0,0,1-.16895.60743.9999.9999,0,0,0,.188,1.02441c.07715.08691.1543.18066.22363.26855A4.12186,4.12186,0,0,1,20,9.20311a7.03888,7.03888,0,0,1-.0376.77734c-.22021,3.05566-1.72558,4.46387-5.1958,4.85937a1,1,0,0,0-.54541,1.7461,1.63079,1.63079,0,0,1,.46631.9082,3.06079,3.06079,0,0,1,.09229.81934v2.334C14.77,21.2949,14.77,21.78025,14.77,22.00291a1,1,0,1,0,2,0c0-.2168,0-.69238.00977-1.33984V18.31346a4.8815,4.8815,0,0,0-.15479-1.31153,4.25638,4.25638,0,0,0-.11621-.416,6.51258,6.51258,0,0,0,5.44531-6.42383A8.69677,8.69677,0,0,0,22,9.20311,6.13062,6.13062,0,0,0,20.7373,5.37693Z"/>
-              
+                            <path fillRule="evenodd" clipRule="evenodd" fill="currentColor"
+                                  d="M10.07031,20.50291a1.00008,1.00008,0,0,0-1.18115-.9834c-1.30908.24024-2.96191.27637-3.40137-.958a5.70754,5.70754,0,0,0-1.83691-2.415,1.20073,1.20073,0,0,1-.1665-.10938,1,1,0,0,0-.93067-.64551H2.54883a.99965.99965,0,0,0-1,.99512c-.00391.81543.811,1.33789,1.1416,1.51465a4.4408,4.4408,0,0,1,.92383,1.35937c.36426,1.02344,1.42285,2.57617,4.46582,2.376.001.03516.00195.06836.00244.09863l.00439.26758a1,1,0,0,0,2,0l-.00488-.31836C10.07715,21.4951,10.07031,21.22068,10.07031,20.50291Zm10.667-15.126c.03174-.125.063-.26367.09034-.41992a6.27792,6.27792,0,0,0-.40821-3.293,1.002,1.002,0,0,0-.61572-.58007c-.356-.12012-1.67041-.35645-4.18408,1.25a13.86918,13.86918,0,0,0-6.354,0C6.76221.751,5.45459.9658,5.10205,1.07908a.99744.99744,0,0,0-.63135.584,6.3003,6.3003,0,0,0-.40332,3.35644c.02442.12793.05078.2461.07813.35449A6.26928,6.26928,0,0,0,2.89014,9.20311a8.42168,8.42168,0,0,0,.04248.92187c.334,4.60254,3.334,5.98438,5.42431,6.459-.04345.125-.083.25878-.11816.40039a1.00023,1.00023,0,0,0,1.94238.47851,1.6784,1.6784,0,0,1,.46778-.87793.99947.99947,0,0,0-.5459-1.74512c-3.4541-.39453-4.95362-1.80175-5.1792-4.89843a6.61076,6.61076,0,0,1-.03369-.73828,4.25769,4.25769,0,0,1,.91943-2.71289,3.022,3.022,0,0,1,.1958-.23145.99988.99988,0,0,0,.188-1.02441,3.3876,3.3876,0,0,1-.15527-.55567A4.09356,4.09356,0,0,1,6.1167,3.06346a7.54263,7.54263,0,0,1,2.415,1.17968,1.00877,1.00877,0,0,0,.82764.13282,11.77716,11.77716,0,0,1,6.17285.001,1.00549,1.00549,0,0,0,.83056-.13769,7.572,7.572,0,0,1,2.40528-1.19043,4.03977,4.03977,0,0,1,.0874,1.57812,3.205,3.205,0,0,1-.16895.60743.9999.9999,0,0,0,.188,1.02441c.07715.08691.1543.18066.22363.26855A4.12186,4.12186,0,0,1,20,9.20311a7.03888,7.03888,0,0,1-.0376.77734c-.22021,3.05566-1.72558,4.46387-5.1958,4.85937a1,1,0,0,0-.54541,1.7461,1.63079,1.63079,0,0,1,.46631.9082,3.06079,3.06079,0,0,1,.09229.81934v2.334C14.77,21.2949,14.77,21.78025,14.77,22.00291a1,1,0,1,0,2,0c0-.2168,0-.69238.00977-1.33984V18.31346a4.8815,4.8815,0,0,0-.15479-1.31153,4.25638,4.25638,0,0,0-.11621-.416,6.51258,6.51258,0,0,0,5.44531-6.42383A8.69677,8.69677,0,0,0,22,9.20311,6.13062,6.13062,0,0,0,20.7373,5.37693Z"/>
+                          
                           </svg>
                         </a>
                       </button>
@@ -368,7 +383,8 @@ const blog = () => {
                     <div className="w-1/3 my-2 lg:p-3 md:w-1/6 lg:mx-auto">
                       <button
                         className="inline-flex items-center justify-center flex-shrink-0 w-16 h-16 mb-4 transition-all duration-500 ease-in-out transform bg-gray-100 border-2 shadow-xl rounded-xl hover:text-cyan-500 dark:bg-gray-900 dark:text-gray-100 hover:bg-white dark:hover:bg-gray-800 dark:hover:border-gray-900 border-cyan-400 hover:border-white focus:ring-4 focus:ring-cyan-500 focus:ring-opacity-50 focus:outline-none ">
-                        <a href={"https://www.linkedin.com/in/shashank-biplav-9346871b5/"} target="_blank" rel="noopener noreferrer" className="focus:outline-none">
+                        <a href={"https://www.linkedin.com/in/shashank-biplav-9346871b5/"} target="_blank"
+                           rel="noopener noreferrer" className="focus:outline-none">
                           <svg width="24" height="24" viewBox="0 0 32 32" fill="none"
                                xmlns="http://www.w3.org/2000/svg">
                             <path fillRule="evenodd" clipRule="evenodd"
@@ -381,7 +397,8 @@ const blog = () => {
                     <div className="w-1/3 my-2 lg:p-3 md:w-1/6 lg:mx-auto">
                       <button
                         className="inline-flex items-center justify-center flex-shrink-0 w-16 h-16 mb-4 transition-all duration-500 ease-in-out transform bg-gray-100 border-2 shadow-xl rounded-xl hover:text-cyan-500 dark:bg-gray-900 dark:text-gray-100 hover:bg-white dark:hover:bg-gray-800 dark:hover:border-gray-900 border-cyan-400 hover:border-white focus:ring-4 focus:ring-cyan-500 focus:ring-opacity-50 focus:outline-none ">
-                        <a href={"mailto:biplavshashank7@gmail.com?subject=Important!&body=Hi,"} target="_blank" rel="noopener noreferrer" className="focus:outline-none">
+                        <a href={"mailto:biplavshashank7@gmail.com?subject=Important!&body=Hi,"} target="_blank"
+                           rel="noopener noreferrer" className="focus:outline-none">
                           <svg width="32" height="32" viewBox="0 0 24 24" fill="none"
                                xmlns="http://www.w3.org/2000/svg">
                             <path fillRule="evenodd" clipRule="evenodd"
@@ -394,10 +411,12 @@ const blog = () => {
                     <div className="w-1/3 my-2 lg:p-3 md:w-1/6 lg:mx-auto">
                       <button
                         className="inline-flex items-center justify-center flex-shrink-0 w-16 h-16 mb-4 transition-all duration-500 ease-in-out transform bg-gray-100 border-2 shadow-xl rounded-xl hover:text-cyan-500 dark:bg-gray-900 dark:text-gray-100 hover:bg-white dark:hover:bg-gray-800 dark:hover:border-gray-900 border-cyan-400 hover:border-white focus:ring-4 focus:ring-cyan-500 focus:ring-opacity-50 focus:outline-none ">
-                        <a href={"https://twitter.com/biplav_shashank"} target="_blank" rel="noopener noreferrer" className="focus:outline-none">
+                        <a href={"https://twitter.com/biplav_shashank"} target="_blank" rel="noopener noreferrer"
+                           className="focus:outline-none">
                           <svg width="24" height="24" viewBox="0 0 16 16" fill="none"
                                xmlns="http://www.w3.org/2000/svg">
-                            <path fillRule="evenodd" clipRule="evenodd" fill="currentColor" d="M15.725 2.76a.955.955 0 0 0-.17-.146c.016-.05.03-.1.043-.148.1-.4-.07-.81-.408-1.049a1.025 1.025 0 0 0-1.146-.007c-.136.091-.587.294-.965.426C12.365 1.268 11.611 1 10.742 1c-.75 0-1.43.213-2.207.69-1.082.667-1.511 1.885-1.594 2.958a7.11 7.11 0 0 1-4.23-2.622 1.001 1.001 0 0 0-1.669.114C.429 3.232.417 4.348.698 5.297a1 1 0 0 0-.394.795c0 1.111.434 2.036 1.017 2.73a1 1 0 0 0-.022.836 4.816 4.816 0 0 0 1.557 1.968 4.93 4.93 0 0 1-1.734.12.982.982 0 0 0-1.069.67 1 1 0 0 0 .438 1.182C2.084 14.54 3.742 15 5.56 15h.007c2.438-.002 4.74-1.073 6.483-3.015 1.658-1.847 2.602-4.311 2.536-6.557.447-.39.945-.93 1.275-1.48a.992.992 0 0 0-.137-1.188zm-5.163 7.89C9.203 12.164 7.43 12.998 5.567 13a6.88 6.88 0 0 1-.689-.028A5.18 5.18 0 0 0 5.95 12.2a1 1 0 0 0-.664-1.726 2.12 2.12 0 0 1-1.053-.33c.06-.04.117-.085.174-.135.294-.263.417-.671.298-1.047a.986.986 0 0 0-.827-.69c-.098-.021-.491-.199-.86-.554l.017-.003a1 1 0 0 0 .315-1.831c-.204-.125-.555-.55-.728-1.113 1.166.938 2.917 1.883 5.325 2.016a.998.998 0 0 0 1.03-1.224c-.107-.462-.085-1.743.607-2.17.455-.279.79-.393 1.158-.393.43 0 .826.11 1.37.65.08.079.17.143.27.19a1 1 0 0 0 .274.695.997.997 0 0 0-.096.544c.198 1.842-.567 3.977-1.998 5.571z"/>
+                            <path fillRule="evenodd" clipRule="evenodd" fill="currentColor"
+                                  d="M15.725 2.76a.955.955 0 0 0-.17-.146c.016-.05.03-.1.043-.148.1-.4-.07-.81-.408-1.049a1.025 1.025 0 0 0-1.146-.007c-.136.091-.587.294-.965.426C12.365 1.268 11.611 1 10.742 1c-.75 0-1.43.213-2.207.69-1.082.667-1.511 1.885-1.594 2.958a7.11 7.11 0 0 1-4.23-2.622 1.001 1.001 0 0 0-1.669.114C.429 3.232.417 4.348.698 5.297a1 1 0 0 0-.394.795c0 1.111.434 2.036 1.017 2.73a1 1 0 0 0-.022.836 4.816 4.816 0 0 0 1.557 1.968 4.93 4.93 0 0 1-1.734.12.982.982 0 0 0-1.069.67 1 1 0 0 0 .438 1.182C2.084 14.54 3.742 15 5.56 15h.007c2.438-.002 4.74-1.073 6.483-3.015 1.658-1.847 2.602-4.311 2.536-6.557.447-.39.945-.93 1.275-1.48a.992.992 0 0 0-.137-1.188zm-5.163 7.89C9.203 12.164 7.43 12.998 5.567 13a6.88 6.88 0 0 1-.689-.028A5.18 5.18 0 0 0 5.95 12.2a1 1 0 0 0-.664-1.726 2.12 2.12 0 0 1-1.053-.33c.06-.04.117-.085.174-.135.294-.263.417-.671.298-1.047a.986.986 0 0 0-.827-.69c-.098-.021-.491-.199-.86-.554l.017-.003a1 1 0 0 0 .315-1.831c-.204-.125-.555-.55-.728-1.113 1.166.938 2.917 1.883 5.325 2.016a.998.998 0 0 0 1.03-1.224c-.107-.462-.085-1.743.607-2.17.455-.279.79-.393 1.158-.393.43 0 .826.11 1.37.65.08.079.17.143.27.19a1 1 0 0 0 .274.695.997.997 0 0 0-.096.544c.198 1.842-.567 3.977-1.998 5.571z"/>
                           </svg>
                         </a>
                       </button>
@@ -405,7 +424,8 @@ const blog = () => {
                     <div className="w-1/3 my-2 lg:p-3 md:w-1/6 lg:mx-auto">
                       <button
                         className="inline-flex items-center justify-center flex-shrink-0 w-16 h-16 mb-4 transition-all duration-500 ease-in-out transform bg-gray-100 border-2 shadow-xl rounded-xl hover:text-cyan-500 dark:bg-gray-900 dark:text-gray-100 hover:bg-white dark:hover:bg-gray-800 dark:hover:border-gray-900 border-cyan-400 hover:border-white focus:ring-4 focus:ring-cyan-500 focus:ring-opacity-50 focus:outline-none ">
-                        <a href={"https://www.instagram.com/shashankbiplav/"} target="_blank" rel="noopener noreferrer" className="focus:outline-none">
+                        <a href={"https://www.instagram.com/shashankbiplav/"} target="_blank" rel="noopener noreferrer"
+                           className="focus:outline-none">
                           <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                xmlns="http://www.w3.org/2000/svg">
                             <path fillRule="evenodd" clipRule="evenodd"
@@ -424,7 +444,8 @@ const blog = () => {
                     <div className="w-1/3 my-2 lg:p-3 md:w-1/6 lg:mx-auto">
                       <button
                         className="inline-flex items-center justify-center flex-shrink-0 w-16 h-16 mb-4 transition-all duration-500 ease-in-out transform bg-gray-100 border-2 shadow-xl rounded-xl hover:text-cyan-500 dark:bg-gray-900 dark:text-gray-100 hover:bg-white dark:hover:bg-gray-800 dark:hover:border-gray-900 border-cyan-400 hover:border-white focus:ring-4 focus:ring-cyan-500 focus:ring-opacity-50 focus:outline-none ">
-                        <a href={"https://dribbble.com/shashankbiplav"} target="_blank" rel="noopener noreferrer" className="focus:outline-none">
+                        <a href={"https://dribbble.com/shashankbiplav"} target="_blank" rel="noopener noreferrer"
+                           className="focus:outline-none">
                           <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                xmlns="http://www.w3.org/2000/svg">
                             <path fillRule="evenodd" clipRule="evenodd"
