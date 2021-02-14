@@ -22,6 +22,7 @@ const blog = () => {
         <title>Shashank Biplav</title>
         <meta name="author" content="Shashank Biplav"/>
         <meta name="keywords" content="Shashank Biplav, Portfolio, Full-Stack Developer"/>
+        <link rel="shortcut icon" href={"/sb.jpg"}/>
         <meta name="theme-color" content="#9CA3AF"/>
       </Head>
       <body
