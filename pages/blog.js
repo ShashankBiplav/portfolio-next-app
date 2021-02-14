@@ -325,7 +325,7 @@ const blog = () => {
                       
                     </p>
                     <button
-                      className="px-4 py-2 mt-4 text-gray-900 transition duration-500 ease-in-out transform bg-gray-100 border-2 shadow-2xl focus:ring-4 focus:ring-cyan-500 focus:ring-opacity-50 focus:outline-none dark:bg-gray-900 hover:bg-white dark:hover:bg-white border-cyan-400 hover:border-white dark:text-gray-100 dark:hover:text-gray-900 hover:text-gray-900 rounded-xl">
+                      className="px-4 py-2 mt-4 mb-4 text-gray-900 transition duration-500 ease-in-out transform bg-gray-100 border-2 shadow-2xl focus:ring-4 focus:ring-cyan-500 focus:ring-opacity-50 focus:outline-none dark:bg-gray-900 hover:bg-white dark:hover:bg-white border-cyan-400 hover:border-white dark:text-gray-100 dark:hover:text-gray-900 hover:text-gray-900 rounded-xl">
                       <a href={"https://shashankbiplav.me/todo-rest-api-example-using-nodejs"} target="_blank" rel="noopener noreferrer"
                          className="flex items-center font-semibold leading-relaxed tracking-tighter text-md focus:outline-none">
                         Read More
