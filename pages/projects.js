@@ -1,14 +1,29 @@
+import Head from 'next/head';
+import React, {useState} from 'react';
+
 const projects = () => {
+  const [navOpen, isNavOpen] = useState(false);
+  const toggleNavigation = () => {
+    isNavOpen(!navOpen);
+  };
+  const menuIcon = <svg fill="currentColor" viewBox="0 0 20 20" className="w-6 h-6">
+    <path fillRule="evenodd"
+          d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"/>
+  </svg>;
+  const closeMenuIcon = <svg fill="currentColor" viewBox="0 0 20 20" className="w-6 h-6">
+    <path fillRule="evenodd"
+          d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"/>
+  </svg>;
   return (
-    <div>
-      <head>
+    <>
+      <Head>
         <meta charSet="UTF-8"/>
         <meta name="viewport" content="width=device-width,initial-scale=1"/>
         <title>Shashank Biplav</title>
         <meta name="author" content="Shashank Biplav"/>
         <meta name="keywords" content="Shashank Biplav, Portfolio, Full-Stack Developer"/>
         <meta name="theme-color" content="#9CA3AF"/>
-      </head>
+      </Head>
       
       <body
         className="text-black transition-colors duration-1000 bg-gray-400 dark:text-white dark:bg-blue-gray-primary">
@@ -27,28 +42,26 @@ const projects = () => {
                     <span className="text-xs">©</span>
                   </h1>
                 </a>
-                <button className="rounded-lg md:hidden focus:outline-none focus:shadow-outline">
-                  <svg fill="currentColor" viewBox="0 0 20 20" className="w-6 h-6">
-                    <path x-show="!open" fill-rule="evenodd"
-                          d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
-                          clip-rule="evenodd"></path>
-                    <path x-show="open" fill-rule="evenodd"
-                          d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                          clip-rule="evenodd"></path>
-                  </svg>
+                <button className="rounded-lg md:hidden focus:outline-none focus:shadow-outline transition"
+                        onClick={toggleNavigation}>{navOpen? closeMenuIcon :menuIcon}
                 </button>
               </div>
-              <nav className="{'flex': open, 'hidden': !open}"
-                   className="flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
+              <nav className= "flex flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
                 <a
                   className="px-4 py-2 mt-2 text-sm font-semibold text-gray-600 transition duration-500 ease-in-out transform bg-transparent rounded-lg dark:text-gray-300 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-300 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-                  href="/">Home</a>
-                
+                  href={"/"}>Home</a>
                 <a
                   className="px-4 py-2 mt-2 text-sm font-semibold text-gray-600 transition duration-500 ease-in-out transform bg-transparent rounded-lg dark:text-gray-300 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-300 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-                  href="/blog">Blog</a>
-              
+                  href={"/blog"}>Blog</a>
               </nav>
+              {navOpen?<nav className="sm:hidden md:block flex flex-col">
+                <a
+                  className="px-4 py-2 mt-2 text-sm font-semibold text-gray-600 transition duration-500 ease-in-out transform bg-transparent rounded-lg dark:text-gray-300 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-300 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                  href={"/"}>Home</a>
+                <a
+                  className="px-4 py-2 mb-4 mt-2 text-sm font-semibold text-gray-600 transition duration-500 ease-in-out transform bg-transparent rounded-lg dark:text-gray-300 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-300 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                  href={"/blog"}>Blog</a>
+              </nav> : <></>}
             </div>
           </div>
           <div className="flex-1 mx-auto ">
@@ -262,7 +275,7 @@ const projects = () => {
         </div>
       </section>
       </body>
-    </div>
+    </>
   );
 };
 
