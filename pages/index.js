@@ -94,7 +94,7 @@ export default function Home() {
                   <div className="hidden xl:w-1/3 xl:block">
                     <img alt="gallery"
                          className="inset-0 block object-cover object-center w-full h-full rounded-xl"
-                         src="https://images.unsplash.com/photo-1526038335545-4b96864eaee7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80"/>
+                         src={"/react-dockerized.png"}/>
                   </div>
                   <div className="w-full p-6 text-left xl:w-2/3">
                     <h1

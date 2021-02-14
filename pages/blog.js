@@ -102,7 +102,7 @@ const blog = () => {
                   className="flex flex-wrap h-full px-2 bg-gray-100 shadow-xl rounded-xl dark:bg-gray-900 xl:py-10 xl:px-10 ">
                   <div className="hidden xl:w-1/3 xl:block">
                     <img alt="gallery" className="inset-0 block object-cover object-center w-full h-full rounded-xl"
-                         src="https://images.unsplash.com/photo-1526038335545-4b96864eaee7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80"/>
+                         src={"/react-dockerized.png"}/>
                   </div>
                   <div className="w-full p-6 text-left xl:w-2/3">
                     <h1 className="mt-auto mb-2 font-sans text-2xl font-black tracking-tighter text-cyan-500">
@@ -182,7 +182,7 @@ const blog = () => {
                   <div className="hidden xl:w-1/3 xl:block">
                     <img alt="gallery"
                          className="inset-0 block object-cover object-center w-full h-full rounded-xl"
-                         src="https://images.unsplash.com/photo-1526038335545-4b96864eaee7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80"/>
+                         src={"/laravel-setup.png"}/>
                   </div>
                   <div className="w-full text-left xl:w-2/3 lg:p-6">
                     <h1
