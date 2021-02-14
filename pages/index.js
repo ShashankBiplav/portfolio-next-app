@@ -38,8 +38,7 @@ export default function Home() {
                    className="text-lg font-semibold rounded-lg tracking-widestuppercase focus:outline-none focus:shadow-outline">
                   <h1
                     className="text-2xl font-bold tracking-tighter text-gray-500 uppercase dark:text-white md:text-sm lg:text-3xl">
-                    ShashankBiplav
-                    <span className="text-xs">©</span>
+                    Shashank Biplav
                   </h1>
                 </a>
                 <button className="rounded-lg md:hidden focus:outline-none focus:shadow-outline transition"
@@ -73,7 +72,7 @@ export default function Home() {
                   <div className="hidden w-full lg:block">
                     <img alt="gallery"
                          className="inset-0 block object-cover object-center w-full h-full rounded-xl "
-                         src="https://scontent.fgau1-1.fna.fbcdn.net/v/t1.0-9/127144664_3417481055015903_2840816828621070379_o.jpg?_nc_cat=111&ccb=3&_nc_sid=09cbfe&_nc_ohc=3comy_Byi_0AX-_-dfi&_nc_ht=scontent.fgau1-1.fna&oh=b38a94b998f1e813d32551ac3f56ca5a&oe=604D3D60"/>
+                         src={"/shashank-biplav.jpg"}/>
                   </div>
                   <div className="w-full py-2 text-left xl:py-6">
                     <h1
@@ -177,7 +176,7 @@ export default function Home() {
                     <div className="w-1/3 mx-auto lg:p-3 md:w-1/3 lg:w-full xl:w-1/3 xl:my-2">
                       <button
                         className="inline-flex items-center justify-center flex-shrink-0 w-16 h-16 mx-auto mb-4 transition-all duration-500 ease-in-out transform bg-gray-100 border-2 shadow-xl rounded-xl hover:text-cyan-500 dark:bg-gray-900 dark:text-gray-100 hover:bg-white dark:hover:bg-gray-800 dark:hover:border-gray-900 border-cyan-400 hover:border-white focus:ring-4 focus:ring-cyan-500 focus:ring-opacity-50 focus:outline-none ">
-                        <a href="https://github.com/ShashankBiplav" target="_blank" rel="noopener noreferrer"
+                        <a href={"https://github.com/ShashankBiplav"} target="_blank" rel="noopener noreferrer"
                            className="focus:outline-none">
                           <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                xmlns="http://www.w3.org/2000/svg">
@@ -190,7 +189,7 @@ export default function Home() {
                     <div className="w-1/3 mx-auto lg:p-3 md:w-1/3 lg:w-full xl:w-1/3 xl:my-2">
                       <button
                         className="inline-flex items-center justify-center flex-shrink-0 w-16 h-16 mx-auto mb-4 transition-all duration-500 ease-in-out transform bg-gray-100 border-2 shadow-xl rounded-xl hover:text-cyan-500 dark:bg-gray-900 dark:text-gray-100 hover:bg-white dark:hover:bg-gray-800 dark:hover:border-gray-900 border-cyan-400 hover:border-white focus:ring-4 focus:ring-cyan-500 focus:ring-opacity-50 focus:outline-none ">
-                        <a href="https://www.linkedin.com/in/shashank-biplav-9346871b5/" target="_blank"
+                        <a href={"https://www.linkedin.com/in/shashank-biplav-9346871b5/"} target="_blank"
                            rel="noopener noreferrer" className="focus:outline-none">
                           <svg width="24" height="24" viewBox="0 0 32 32" fill="none"
                                xmlns="http://www.w3.org/2000/svg">
@@ -204,7 +203,7 @@ export default function Home() {
                     <div className="w-1/3 mx-auto lg:p-3 md:w-1/3 lg:w-full xl:w-1/3 xl:my-2">
                       <button
                         className="inline-flex items-center justify-center flex-shrink-0 w-16 h-16 mx-auto mb-4 transition-all duration-500 ease-in-out transform bg-gray-100 border-2 shadow-xl rounded-xl hover:text-cyan-500 dark:bg-gray-900 dark:text-gray-100 hover:bg-white dark:hover:bg-gray-800 dark:hover:border-gray-900 border-cyan-400 hover:border-white focus:ring-4 focus:ring-cyan-500 focus:ring-opacity-50 focus:outline-none ">
-                        <a href="mailto:biplavshashank7@gmail.com?subject=Important!&body=Hi," target="_blank"
+                        <a href={"mailto:biplavshashank7@gmail.com?subject=Important!&body=Hi,"} target="_blank"
                            rel="noopener noreferrer" className="focus:outline-none">
                           <svg width="32" height="32" viewBox="0 0 24 24" fill="none"
                                xmlns="http://www.w3.org/2000/svg">
@@ -219,7 +218,7 @@ export default function Home() {
                     <div className="w-1/3 mx-auto lg:p-3 md:w-1/3 lg:w-full xl:w-1/3 xl:my-2">
                       <button
                         className="inline-flex items-center justify-center flex-shrink-0 w-16 h-16 mx-auto mb-4 transition-all duration-500 ease-in-out transform bg-gray-100 border-2 shadow-xl rounded-xl hover:text-cyan-500 dark:bg-gray-900 dark:text-gray-100 hover:bg-white dark:hover:bg-gray-800 dark:hover:border-gray-900 border-cyan-400 hover:border-white focus:ring-4 focus:ring-cyan-500 focus:ring-opacity-50 focus:outline-none ">
-                        <a href="https://twitter.com/biplav_shashank" target="_blank" rel="noopener noreferrer"
+                        <a href={"https://twitter.com/biplav_shashank"} target="_blank" rel="noopener noreferrer"
                            className="focus:outline-none">
                           <svg width="24" height="24" viewBox="0 0 16 16" fill="none"
                                xmlns="http://www.w3.org/2000/svg">
@@ -232,7 +231,7 @@ export default function Home() {
                     <div className="w-1/3 mx-auto lg:p-3 md:w-1/3 lg:w-full xl:w-1/3 xl:my-2">
                       <button
                         className="inline-flex items-center justify-center flex-shrink-0 w-16 h-16 mx-auto mb-4 transition-all duration-500 ease-in-out transform bg-gray-100 border-2 shadow-xl rounded-xl hover:text-cyan-500 dark:bg-gray-900 dark:text-gray-100 hover:bg-white dark:hover:bg-gray-800 dark:hover:border-gray-900 border-cyan-400 hover:border-white focus:ring-4 focus:ring-cyan-500 focus:ring-opacity-50 focus:outline-none ">
-                        <a href="https://www.instagram.com/shashankbiplav/" target="_blank" rel="noopener noreferrer"
+                        <a href={"https://www.instagram.com/shashankbiplav/"} target="_blank" rel="noopener noreferrer"
                            className="focus:outline-none">
                           <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                xmlns="http://www.w3.org/2000/svg">
@@ -252,7 +251,7 @@ export default function Home() {
                     <div className="w-1/3 mx-auto lg:p-3 md:w-1/3 lg:w-full xl:w-1/3 xl:my-2">
                       <button
                         className="inline-flex items-center justify-center flex-shrink-0 w-16 h-16 mx-auto mb-4 transition-all duration-500 ease-in-out transform bg-gray-100 border-2 shadow-xl rounded-xl hover:text-cyan-500 dark:bg-gray-900 dark:text-gray-100 hover:bg-white dark:hover:bg-gray-800 dark:hover:border-gray-900 border-cyan-400 hover:border-white focus:ring-4 focus:ring-cyan-500 focus:ring-opacity-50 focus:outline-none ">
-                        <a href="https://dribbble.com/shashankbiplav" target="_blank" rel="noopener noreferrer"
+                        <a href={"https://dribbble.com/shashankbiplav"} target="_blank" rel="noopener noreferrer"
                            className="focus:outline-none">
                           <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                xmlns="http://www.w3.org/2000/svg">
