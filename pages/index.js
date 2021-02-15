@@ -94,28 +94,25 @@ export default function Home() {
                   <div className="hidden xl:w-1/3 xl:block">
                     <img alt="gallery"
                          className="inset-0 block object-cover object-center w-full h-full rounded-xl"
-                         src={"/react-dockerized.png"}/>
+                         src={"/flutter-basics-by-shashank-biplav.png"}/>
                   </div>
                   <div className="w-full p-6 text-left xl:w-2/3">
                     <h1
                       className="mt-auto mb-2 font-sans text-2xl font-black tracking-tighter text-cyan-500">
-                      Dockerizing a React App</h1>
+                      Flutter Basics - Splitting Widgets</h1>
                     <p className="text-sm leading-relaxed text-gray-400">
-                      Latest Article, Featured on <span className="font-bold">daily.dev</span>
+                      Latest Article
+                      {/*Featured on <span className="font-bold">daily.dev</span>*/}
                     </p>
                     <p className="text-xs leading-relaxed text-gray-400">
-                      Feb 11, 2021
+                      Feb 15, 2021
                     </p>
                     <p className="mt-12 leading-relaxed tracking-tighter text-md dark:text-gray-100">
-                      Have you ever wondered, the dockerized React app that we use in development is not the same that
-                      is deployed in production? There is an extra build step required! But wait, isn't that the primary
-                      purpose of containerization, i.e, to have the same environment and same code in the development
-                      and production. This extra build step beats the whole idea of the same environment and same code.
-                      Well, let's have a look further.
+                      I am sure you are enjoying this Flutter Series! In this article, we will have a closer look at some of the widgets provided by the Flutter Material package. We will also see how we can build our own custom widgets and how they are rendered on the screen. Along with that, we will build a cool app with our custom widgets. So, let's get going.
                     </p>
                     <button
                       className="px-4 py-2 mt-12 text-gray-900 transition duration-500 ease-in-out transform bg-gray-100 border-2 shadow-2xl focus:ring-4 focus:ring-cyan-500 focus:ring-opacity-50 focus:outline-none dark:bg-gray-900 hover:bg-white dark:hover:bg-white border-cyan-400 hover:border-white dark:text-gray-100 dark:hover:text-gray-900 hover:text-gray-900 rounded-xl xl:mt-4">
-                      <a href="https://shashankbiplav.me/dockerizing-a-react-app-introduction-to-multi-stage-builds"
+                      <a href="https://shashankbiplav.me/flutter-basics-splitting-widgets"
                          target="_blank" rel="noopener noreferrer"
                          className="flex items-center font-semibold leading-relaxed tracking-tighter text-md focus:outline-none">
                         Read More
