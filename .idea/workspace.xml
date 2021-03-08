@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5a41aae4-eba9-40c2-b55a-a194cc371d32" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/flutter-basics-by-shashank-biplav.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +57,7 @@
       <workItem from="1613407817140" duration="921000" />
       <workItem from="1613497116400" duration="606000" />
       <workItem from="1613544292368" duration="229000" />
-      <workItem from="1615174919242" duration="624000" />
+      <workItem from="1615174919242" duration="1571000" />
     </task>
     <servers />
   </component>

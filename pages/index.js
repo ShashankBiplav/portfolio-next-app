@@ -105,7 +105,7 @@ export default function Home() {
                       {/*Featured on <span className="font-bold">Hashnode</span>*/}
                     </p>
                     <p className="text-xs leading-relaxed text-gray-400">
-                      Feb 20, 2021
+                      Mar 7, 2021
                     </p>
                     <p className="mt-12 leading-relaxed tracking-tighter text-md dark:text-gray-100">
                       Until now in the series, we have used providers to accomplish tasks such as managing our app-wide state and our backend data. But we can also use providers to our advantage and accomplish other tasks too. One of them being adding dynamic themes to our Flutter application.
