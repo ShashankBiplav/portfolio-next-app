@@ -94,25 +94,25 @@ export default function Home() {
                   <div className="hidden xl:w-1/3 xl:block">
                     <img alt="gallery"
                          className="inset-0 block object-cover object-center w-full h-full rounded-xl"
-                         src={"/flutter-basics-by-shashank-biplav.png"}/>
+                         src={"/flutter-dark-mode-tutorial-by-shashank-biplav.png"}/>
                   </div>
                   <div className="w-full p-6 text-left xl:w-2/3">
                     <h1
                       className="mt-auto mb-2 font-sans text-2xl font-black tracking-tighter text-cyan-500">
-                      Flutter Basics - Splitting Widgets</h1>
+                      Flutter Advanced - Adding Dark Mode | Dynamic Theme using Provider</h1>
                     <p className="text-sm leading-relaxed text-gray-400">
                       Latest Article
-                      {/*Featured on <span className="font-bold">daily.dev</span>*/}
+                      {/*Featured on <span className="font-bold">Hashnode</span>*/}
                     </p>
                     <p className="text-xs leading-relaxed text-gray-400">
-                      Feb 15, 2021
+                      Feb 20, 2021
                     </p>
                     <p className="mt-12 leading-relaxed tracking-tighter text-md dark:text-gray-100">
-                      I am sure you are enjoying this Flutter Series! In this article, we will have a closer look at some of the widgets provided by the Flutter Material package. We will also see how we can build our own custom widgets and how they are rendered on the screen. Along with that, we will build a cool app with our custom widgets. So, let's get going.
+                      Until now in the series, we have used providers to accomplish tasks such as managing our app-wide state and our backend data. But we can also use providers to our advantage and accomplish other tasks too. One of them being adding dynamic themes to our Flutter application.
                     </p>
                     <button
                       className="px-4 py-2 mt-12 text-gray-900 transition duration-500 ease-in-out transform bg-gray-100 border-2 shadow-2xl focus:ring-4 focus:ring-cyan-500 focus:ring-opacity-50 focus:outline-none dark:bg-gray-900 hover:bg-white dark:hover:bg-white border-cyan-400 hover:border-white dark:text-gray-100 dark:hover:text-gray-900 hover:text-gray-900 rounded-xl xl:mt-4">
-                      <a href="https://shashankbiplav.me/flutter-basics-splitting-widgets"
+                      <a href="https://shashankbiplav.me/flutter-advanced-adding-dark-mode-or-dynamic-theme-using-provider"
                          target="_blank" rel="noopener noreferrer"
                          className="flex items-center font-semibold leading-relaxed tracking-tighter text-md focus:outline-none">
                         Read More
